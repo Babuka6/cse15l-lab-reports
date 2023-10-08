@@ -8,7 +8,7 @@ print '3 backticks or'
 print 'indent 4 spaces'
 ```
 
-> Blockquote *Anthony* **Chapov**
+>  *Anthony* **Chapov**
 
 [My LinkedIn](https://www.linkedin.com/in/anthonychapov/) 
 
