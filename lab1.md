@@ -21,7 +21,7 @@
   * b)wd: /home -> /home/lecture1 
   * c)terminal shows new working directory 
   * d)no errors
-
+---
 ## ls command block:
 
 > **ls with no arguments**
@@ -47,7 +47,7 @@
  * b)wd: /home 
  * c)prints every folder in the current directory -- does not print folders and files that are sub folders of a folder/file in a current category 
  * d)no errors
-  
+---  
 ## cat command block:
 
 > **cat with no arguments**
