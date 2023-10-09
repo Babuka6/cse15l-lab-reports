@@ -32,12 +32,14 @@
   b)wd: /home/lecture1/messages
   c)output is the text files in messages
   d)no errors
+  
  **ls with files**
   a)![ls with files](ls_files.jpg)
   b)wd: /home
   c)ls with filers does not work cause file is the last point of the path. file cannot have another file otherwise it becomes a folder or directory I guess that is   
   why. It does not work with files.
   d)No such file or directory. Explained above why.
+  
  **ls with directory**
   a)![ls with directory](ls_directory_arg.jpg)
   Remark: So apparently for ls with argument I have to specify the whole path to file and not just name of directory like in case with cd where we dont need it
@@ -52,6 +54,7 @@
   b)wd: /home
   c) Creates a infinite loop of taking input from keyboard or some other string value? 
   d) Technically not at en error but bugs the terminal. To cancel the input and fix terminal I found solution on google — press ctrl + d
+  
  **cat with files**
   a)![cat with file](cat_files_arg.jpg)
   b)wd: home/lecture1/messages
@@ -59,6 +62,7 @@
      print stuff from messages
      cause messages contaitns files it is not a file
   d) No error
+  
  **cat with directory**
   a)![cat with directory](cat_directory_arg.jpg)
   b)wd: home/lecture1/messages
