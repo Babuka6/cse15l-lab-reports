@@ -26,7 +26,7 @@
 
 > **ls with no arguments**
   * a)![ls with no arguments](ls_no_arg.jpg)
-  Remark
+  
   * a2)![ls with no arguments](ls_no_arg_two.jpg)
   * Remark: but it only list directories and files that 1 level below. So doing ls on home prints only lecture1 and not messages inside lecture1 cause its would be 
     level 2 while lecture1 is level 1 (where home is like level 0)
