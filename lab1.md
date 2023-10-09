@@ -34,7 +34,7 @@
   * d)no errors
   
 > **ls with files**
-  a)![ls with files](ls_files.jpg)
+  a)![ls with files](ls_files_arg.jpg)
  * b)wd: /home
  * c)ls with filers does not work cause file is the last point of the path. file cannot have another file otherwise it becomes a folder or directory I guess that is   
  * why. It does not work with files.
