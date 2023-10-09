@@ -57,7 +57,7 @@
  * d) Technically not at en error but bugs the terminal. To cancel the input and fix terminal I found solution on google — press ctrl + d
   
 > **cat with files**
-  *a)![cat with file](cat_files_arg.jpg)
+ * a)![cat with file](cat_files_arg.jpg)
  * b)wd: home/lecture1/messages
  * c) Okay so cat works with files because it prints the information from files and also dont need the whole path. Cause it works with files and folders it cannot 
      print stuff from messages
