@@ -3,26 +3,23 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
 ## cd command block:
 
 > **cd with no arguments**
-  * a) ![cd with no arguments](cd_no_arg.jpg)
-  * b) wd: /home -> /home
-  * c)no output -> no change in directory
-  * d) It is not an error -- just no argument to change the directory or missing argument can be treated as current     
-  directory and a redundant statement.
+  * a) ![cd with no arguments](res_cd_no_arg.jpg)
+  * b) wd: /home/lecture1/messages
+  * c)changes working directory to my home directory. /home 
+  * d) It is not an error -- predefined behavior 
 
 > **cd with files**
   * a) ![cd with file](cd_file_arg.jpg)
-  * b)wd: /lecture1 -> /lecture1
+  * b)wd: /home/lecture1
   * c)bash: no such file or directory OR not a directory
   * d) cd does not work with files since it only works with directories. .txt and .java are files and terminal gives      error.
 
 > **cd with directory**
   * a) ![cd with directory](cd_directory_arg.jpg)
-  * Remark:
-  * To do cd on directory (folder) we dont need to specify the entire path starting from C. just the name of directory   and terminal fills the path automatically
   * ![cd with directory](cd_directory_arg_2.jpg)
-  * b)wd: /home -> /home/lecture1 
-  * c)terminal shows new working directory 
-  * d)no errors
+  * b)wd: /home
+  * c)terminal shows new working directory as long as path is correct. So say If I sit in /home and write cd lecture1 it will give new working directory /home/lecture1 because there is lecture1 in /home. But If I sit in /home/lecture1 and try to "cd home" -- it will give an error cause there is no "home" directory in /home/lecture1/ and I gave relative path. However, if I try to cd into /home from /home/lecture1/messages it will work because I provided absolute path. 
+  * d)No errors in the first case. Second screenshot included just to show possible "error states" when path is !intentionally! incorrect. 
 ---
 ## ls command block:
 
@@ -38,10 +35,9 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
   
 > **ls with files**
  * a) ![ls with files](ls_files_arg.jpg)
- * b)wd: /home
- * c)ls with filers does not work cause file is the last point of the path. file cannot have another file otherwise it becomes a folder or directory I guess that is   
- * why. It does not work with files.
- * d)No such file or directory. Explained above why.
+ * b)wd: /home/lecture1/messages
+ * c)Since the given path can be though of as having just the file, this command would simply list that path/file ("this file containts only this file")
+ * d)No errors as long as accessed from correct working directory.
   
 > **ls with directory**
  * a) ![ls with directory](ls_directory_arg.jpg)
