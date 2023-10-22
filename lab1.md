@@ -40,7 +40,7 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
  * d)No errors as long as accessed from correct working directory.
   
 > **ls with directory**
- * a) ![ls with directory](ls_directory_arg.jpg)
+ * a) ![ls with directory](res_ls_directory.jpg)
  * 
  * b)wd: /home 
  * c)prints every folder and file in the specified path -- does not print folders and files that are sub folders of a folder/file in a current category 
@@ -51,8 +51,8 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
 > **cat with no arguments**
  * a) ![cat no argument](cat_no_arg.jpg)
  * b)wd: /home
- * c) Creates a infinite loop of taking input from keyboard or some other string value? 
- * d) Technically not at en error but bugs the terminal. To cancel the input and fix terminal I found solution on google — press ctrl + d
+ * c) Creates an infinite loop of taking input from keyboard or some other string value.
+ * d) Technically not at en error but freezes the terminal. To cancel the input and fix terminal I found solution on google — press ctrl + d
   
 > **cat with files**
  * a) ![cat with file](cat_files_arg.jpg)
@@ -64,6 +64,6 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
   
 > **cat with directory**
  * a) ![cat with directory](cat_directory_arg.jpg)
- * b)wd: home/lecture1/messages
- * c) Does not work with messages or anything that is not a file like .txt 
- * d) No such file or directory. Probably the "no such file" is the only relevant part of the error since it works only with files?
+ * b)wd: home/lecture1
+ * c) Does not work with messages or anything that is not a file like .txt -> just says that it is a directory
+ * d) Somewhat an error. For directory as input it just prints that "it is a directory" which tehnically is correct and expected for directory as the input.  
