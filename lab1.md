@@ -2,7 +2,7 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
 
 ## cd command block:
 
-> ** cd with no arguments **
+> ** cd with no arguments ** 
   * a) ![cd with no arguments](res_cd_no_arg.jpg)
   * b) wd: /home/lecture1/messages
   * c)changes working directory to my home directory. /home 
