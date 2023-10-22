@@ -63,7 +63,7 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
  * d) No error
   
 > **cat with directory**
- * a) ![cat with directory](cat_directory_arg.jpg)
+ * a) ![cat with directory](res_cat_directory_arg.jpg)
  * b)wd: home/lecture1
  * c) Does not work with messages or anything that is not a file like .txt -> just says that it is a directory
  * d) Somewhat an error. For directory as input it just prints that "it is a directory" which tehnically is correct and expected for directory as the input.  
