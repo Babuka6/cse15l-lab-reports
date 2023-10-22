@@ -8,13 +8,13 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
   * c)changes working directory to my home directory. /home 
   * d) It is not an error -- predefined behavior 
 
-> **cd with files**
+> **`cd` with files**
   * a) ![cd with file](cd_file_arg.jpg)
   * b)wd: /home/lecture1
   * c)bash: no such file or directory OR not a directory
   * d) cd does not work with files since it only works with directories. .txt and .java are files and terminal gives      error.
 
-> **cd with directory**
+> **`cd` with directory**
   * a) ![cd with directory](cd_directory_arg.jpg)
   * ![cd with directory](cd_directory_arg_2.jpg)
   * b)wd: /home
@@ -23,7 +23,7 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
 ---
 ## ls command block:
 
-> **ls with no arguments**
+> **`ls` with no arguments**
   * a) ![ls with no arguments](ls_no_arg.jpg)
   
   * a2) ![ls with no arguments](ls_no_arg_two.jpg)
@@ -33,13 +33,13 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
   * c)output is the text files in messages
   * d)no errors
   
-> **ls with files**
+> **`ls` with files**
  * a) ![ls with files](res_ls_files_arg.jpg)
  * b)wd: /home/lecture1/messages
  * c)Since the given path can be though of as having just the file, this command would simply list that path/file ("this file containts only this file")
  * d)No errors as long as accessed from correct working directory.
   
-> **ls with directory**
+> **`ls` with directory**
  * a) ![ls with directory](res_ls_directory.jpg)
  * 
  * b)wd: /home 
@@ -48,13 +48,13 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
 ---  
 ## cat command block:
 
-> **cat with no arguments**
+> **`cat` with no arguments**
  * a) ![cat no argument](cat_no_arg.jpg)
  * b)wd: /home
  * c) Creates an infinite loop of taking input from keyboard or some other string value.
  * d) Technically not at en error but freezes the terminal. To cancel the input and fix terminal I found solution on google — press ctrl + d
   
-> **cat with files**
+> **`cat` with files**
  * a) ![cat with file](cat_files_arg.jpg)
  * b)wd: home/lecture1/messages
  * c) Okay so cat works with files because it prints the information from files and also dont need the whole path. Cause it works with files and folders it cannot 
@@ -62,7 +62,7 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
      cause messages contaitns files it is not a file
  * d) No error
   
-> **cat with directory**
+> **`cat` with directory**
  * a) ![cat with directory](res_cat_directory_arg.jpg)
  * b)wd: home/lecture1
  * c) Does not work with messages or anything that is not a file like .txt -> just says that it is a directory
