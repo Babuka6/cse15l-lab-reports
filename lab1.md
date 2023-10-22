@@ -34,16 +34,16 @@ _Anthony Chapov, CSE15L, Lab Report #1 (cd, cat, ls use)_
   * d)no errors
   
 > **ls with files**
- * a) ![ls with files](ls_files_arg.jpg)
+ * a) ![ls with files](res_ls_files_arg.jpg)
  * b)wd: /home/lecture1/messages
  * c)Since the given path can be though of as having just the file, this command would simply list that path/file ("this file containts only this file")
  * d)No errors as long as accessed from correct working directory.
   
 > **ls with directory**
  * a) ![ls with directory](ls_directory_arg.jpg)
- * Remark: So apparently for ls with argument I have to specify the whole path to file and not just name of directory like in case with cd where we dont need it
+ * 
  * b)wd: /home 
- * c)prints every folder in the current directory -- does not print folders and files that are sub folders of a folder/file in a current category 
+ * c)prints every folder and file in the specified path -- does not print folders and files that are sub folders of a folder/file in a current category 
  * d)no errors
 ---  
 ## cat command block:
