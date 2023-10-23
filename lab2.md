@@ -24,9 +24,23 @@ The only values that change are:
  1. handleRequest's argument since url changes
  2. parameters[1] changes because url adress changes. 
  3. The rest of arguments and fields stay the same. 
- 4. current is updated accordingly. 
+ 4. current is updated accordingly.
+    
+ ![StringServer](singleserver.jpg)
+
+![first run](scr1.jpg)
+
+![second run](scr2.jpg)
 
  Part 2: 
+ ![private key](private.jpg)
+ 
+ ![private key](private2.jpg)
+
+ ![public key](public.jpg)
+
+ ![terminal](login.jpg)
+ 
 
 
  Part 3. 
