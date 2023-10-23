@@ -2,22 +2,22 @@ _Anthony Chapov, CSE15L, Lab Report #1_
 
 Part 1:
 A.
-  1.Method: .handleRequest()     Argument: https://0-0-0-0-4000-1kkqb3735755l4n6pe73ttd4v0.us.edusercontent.com/add-message?s=m, return "m"
-  2.Method: .getPath.containts() Argument: "/add-message"
-  3.Method: .getQuerry.split()   Argument "="
-  4.Method: .equals()            Argument "s"
-  5.parameters[0] = "s"
-  6.parameters[1] = "m"
-  7.current = "m"
+  1. Method: .handleRequest()     Argument: https://0-0-0-0-4000-1kkqb3735755l4n6pe73ttd4v0.us.edusercontent.com/add-message?s=m, return "m"
+  2. Method: .getPath.containts() Argument: "/add-message"
+  3. Method: .getQuerry.split()   Argument "="
+  4. Method: .equals()            Argument "s"
+  5. parameters[0] = "s"
+  6. parameters[1] = "m"
+  7. current = "m"
   
 B.
-  1.Method: .handleRequest()     Argument: https://0-0-0-0-4000-1kkqb3735755l4n6pe73ttd4v0.us.edusercontent.com/add-message?s=mother_russia, return "1. m \n 2. mother_russia"
-  2.Method: .getPath.containts() Argument: "/add-message"
-  3.Method: .getQuerry.split()   Argument "="
-  4.Method: .equals()            Argument "s"
-  5.parameters[0] = "s"
-  6.parameters[1] = "mother_russia"
-  7.current = "1. m + \n + 2. mother_russia"
+  1. Method: .handleRequest()     Argument: https://0-0-0-0-4000-1kkqb3735755l4n6pe73ttd4v0.us.edusercontent.com/add-message?s=mother_russia, return "1. m \n 2. mother_russia"
+  2. Method: .getPath.containts() Argument: "/add-message"
+  3. Method: .getQuerry.split()   Argument "="
+  4. Method: .equals()            Argument "s"
+  5. parameters[0] = "s"
+  6. parameters[1] = "mother_russia"
+  7. current = "1. m + \n + 2. mother_russia"
 
 Explanation: 
 The only values that change are:
