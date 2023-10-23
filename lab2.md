@@ -21,10 +21,10 @@ B.
 
 Explanation: 
 The only values that change are:
- 1.handleRequest's argument since url changes
- 2.parameters[1] changes because url adress changes. 
- 3.The rest of arguments and fields stay the same. 
- 4.current is updated accordingly. 
+ 1. handleRequest's argument since url changes
+ 2. parameters[1] changes because url adress changes. 
+ 3. The rest of arguments and fields stay the same. 
+ 4. current is updated accordingly. 
 
  Part 2: 
 
