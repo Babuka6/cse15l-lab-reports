@@ -31,7 +31,7 @@ The only values that change are:
  1. handleRequest's argument since url changes
  2. parameters[1] changes because url adress changes. 
  3. The rest of arguments and fields stay the same. 
- 4. current is updated accordingly.
+ 4. current is updated to include the previous value of current (
 
  
 
