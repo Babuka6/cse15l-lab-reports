@@ -4,7 +4,6 @@ Part 1:
 Code For String Server :
 ![StringServer](singleserver.jpg)
 
-
 A.
   1. Method: .handleRequest()     Argument: https://0-0-0-0-4000-1kkqb3735755l4n6pe73ttd4v0.us.edusercontent.com/add-message?s=m, return "m"
   2. Method: .getPath.containts() Argument: "/add-message"
