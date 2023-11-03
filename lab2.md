@@ -33,6 +33,7 @@ The only values that change are:
  3. current is updated to include the previous values of current ( all parameter[1] so far), new index of new parameter[1],
     and new just added value of parameter[1], and new line to keep it separetly from previous paramater[1] values.
 4. num is just dummy value to keep track of position of parameter[1] in the output
+   
 Values that are not changed:
  1. parameter[0] = s and getPath.containts(/add-message) are preserved because we only change value of parameter[1]. If we change those values we change behavior of the method: if false and if false will result in other-than-we-want output. ("There is nothing here -> go to add-message")
  2. split(=) argument is preserved since its the way we differentiate indexes in parameters[1...n] and is part of standart url path. 
