@@ -48,7 +48,7 @@ The only values that change are:
  
  ![private key](private2.jpg)
 
- ![public key](public.jpg)
+ ![public key](public_key.JPG)
 
  ![terminal](login.jpg)
  
