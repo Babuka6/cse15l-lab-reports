@@ -42,7 +42,8 @@ The only values that change are:
 
  
 
- Part 2: 
+ Part 2 SSH keys: 
+ 
  ![private key](private.jpg)
  
  ![private key](private2.jpg)
