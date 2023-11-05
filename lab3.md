@@ -108,7 +108,7 @@ OK (13 tests)
 ## Briefly describe why the fix addresses the issue:
 As we can see in the failure-producing input, whenever we have more than 1 copies of minimim value that we want to exclude, the original code assumes there is only 1 copy of minimum value and substracts just 1 from arr.length in the final sum/(arr.length - 1) calculation. We can see an example where 2,2,2,2,2,4,2 list must exclude all 2's and just leave us with 4. The wrong code correctly calculates the sum, since as long as num is not lowest it adds num. Basically it adds 4 because 4 is not equal to 2. It does not include 2's copies because 2 equals 2. BUT! As I stated above, it assumes that there is only 1 copy of 2, so it will exclude just 1 element when calculating the sum/ arr.length - 1 (mean). It is not what we want. We know that if we have multiple copies of 2, we want to exclude all of them from our calculation. So here is what I did. I count number of times 2 (lowest value) appears in the list, and substract amount of these copies when calculate the mean without lowest. So I get rid of number of 2's and then 4/1 = 4 is correct. Otherwise, it for arr.length-1 version, it calculates 4/size of array - 1 which is 4/6 = 0.67. 
 
-Also I guarded the change of having zero in the denamitor. I check if arr.length == duplicatesOfMin, so that we dont have situation X/0. 
+Also I guarded the chance of having zero in the denamitor. I check if arr.length == duplicatesOfMin, so that we dont have situation X/0. 
 If arr.length is equal to duplicatesOfMin, then its just case of something like {2,2,2}. It makes sense to set the avarage of this to zero because we exclude all two's from all calcuations as they all are our min value. So we get mean{} = 0. 
 
 
