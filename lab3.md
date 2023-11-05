@@ -141,9 +141,22 @@ complete his course work
 911report/chapter-7.txt:                to Islamic law, were known to drink alcohol.
 911report/chapter-7.txt:                Salem al Hazmi's father recounted that Salem- who had had problems with alcohol and
 ```
-### c) Might be useful to go through all files at once and find specific pattern. I would be very useful for doing research or finding correlation between multiple reports. Say I want to study alcoholism from biological prospective as well as study alcohol-related crimes that are recorded in 911 calls.
+### c) Might be useful to go through all files at once and find specific pattern. It would be very useful for doing research or finding correlation between multiple reports. Say I want to study alcoholism from biological prospective as well as study alcohol-related crimes that are recorded in 911 calls.
 
-## Example 2) Search Multiple Files: grep "pattern" chapter-*.txt
+## Example 2) Search for Email Addresses or URLs:
 
+### a)Search for Email Addresses (I modified text files to see if this command works*)
+```
+$ grep -E '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' 911report/*.txt
+911report/chapter-1.txt:"WE HAVE SOME PLANES" firstname@gmail.com
+911report/chapter-2.txt:            THE FOUNDATION OF THE NEW TERRORISM secondname@gmail.com
 
+```
+### b)Search for URL's
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
+$ grep -E 'https?://[^\s"]+' 911report/chapter-2.txt
+            THE FOUNDATION OF THE NEW TERRORISM https://github.com/Babuka6/cse15l-lab-reports/edit/main/lab3.md
+```
+### c) Good If I want to find a emails in a research paper or in any sort of file data base without doing it mannualy. Same idea applies to URLs. If I want to find related papers and their links without going over the file mannualy.
 
