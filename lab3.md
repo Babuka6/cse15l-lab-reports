@@ -113,7 +113,7 @@ Also I guarded the chance of having zero in the denamitor. I check if arr.length
 If arr.length is equal to duplicatesOfMin, then its just case of something like {2,2,2}. It makes sense to set the avarage of this to zero because we exclude all two's from all calcuations as they all are our min value. So we get mean{} = 0. 
 
 # Part 2:
-# grep command search 
+# ``` grep ``` command search 
 Using ChatGPT 3.5 and prompt "Give me useful and interesting ways to use grep command" 
 
 ## Example 1)ChatGPT: Search Multiple Files: grep "pattern" chapter-*.txt
