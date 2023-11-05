@@ -9,7 +9,8 @@ First input:
     double[] input1 = {0.4,4.1,2.9,3.5,0.4}; //bug 
     assertEquals(3.5, ArrayExamples.averageWithoutLowest(input1),0.05);
 
-  }```
+  }
+```
 
 Second input:
 ```@Test
@@ -17,4 +18,5 @@ Second input:
     double[] input1 = {2,2,2,2,2,4,2}; //including multiple copies of min el.
     assertEquals(4, ArrayExamples.averageWithoutLowest(input1),0.05);
     
-  }```
+  }
+```
