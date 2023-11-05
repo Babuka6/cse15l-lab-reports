@@ -185,5 +185,5 @@ Qaeda might kill, and how
 911report/chapter-11.txt:                proxies to try to capture or kill Bin Ladin and his lieutenants. As early as
 911report/chapter-12.txt:            Terrorism is a tactic used by individuals and organizations to
 ```
-
+### c) The fact that we can combine multiple statements simplifies search a lot. Also, if a programmer has color-blindness changing color of highlight can help. 
 
