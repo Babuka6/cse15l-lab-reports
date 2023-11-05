@@ -191,7 +191,7 @@ Qaeda might kill, and how
 You can use grep to search for a pattern in multiple files and then use sed for a search and replace operation. For example, replacing "old" with "new" in all files within a directory:
 grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'
 
-Here is original instances of "gun" in a file: 
+Here is original instances of "gun" and sentences where its found in a file: 
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
 $ grep -P -o '.+?gun[^.!?]*[.!?]' 911report/chapter-13.2.txt
@@ -208,7 +208,7 @@ antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (m
 $ grep -rl "gun" 911report/chapter-13.2.txt | xargs sed -i 's/gun/banana/g'
 ```
 
-The file was modified and command worked. Now lets find instances of "banana" in the same file.
+The file was modified and command worked. Now lets find instances of "banana" and sentences where it appears in the same file.
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
 $ grep -P -o '.+?banana[^.!?]*[.!?]' 911report/chapter-13.2.txt
