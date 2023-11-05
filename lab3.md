@@ -160,3 +160,30 @@ $ grep -E 'https?://[^\s"]+' 911report/chapter-2.txt
 ```
 ### c) Good If I want to find a emails in a research paper or in any sort of file data base without doing it mannualy. Same idea applies to URLs. If I want to find related papers and their links without going over the file mannualy.
 
+## Example 3) Highlight the instances of string search 
+
+### a)grep --color "pattern" file.txt
+
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
+$ grep --color "killer" 911report/chapter-*.txt
+911report/chapter-2.txt:                sons. The killers were assumed to be rival Egyptians. The outcome left Bin Ladin
+911report/chapter-2.txt:                1995 appears to have been a tipping point. The would-be killers, who came from the
+911report/chapter-8.txt:                one point calling him a "major league killer." He concluded that "something bad was
+```
+This will highlight all "killer" instances as a string or substring to red. 
+
+### b)Combining grep --color "pattern" file.txt with -w to search for only whole words instead of "pattern" also being a substring. Also we can change the color of highlight by exporting first statement (36 can be changed to 31,32,33,etc):
+
+```
+export GREP_COLORS='ms=01;36'  # Change highlighting to Cyan
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
+$ grep --color -w "kill" 911report/*.txt
+911report/chapter-11.txt:                Trade Center bombing had been intended to kill a lot of people, not to achieve any
+911report/chapter-11.txt:                not believe they fully understood just how many people al 
+Qaeda might kill, and how
+911report/chapter-11.txt:                proxies to try to capture or kill Bin Ladin and his lieutenants. As early as
+911report/chapter-12.txt:            Terrorism is a tactic used by individuals and organizations to
+```
+
+
