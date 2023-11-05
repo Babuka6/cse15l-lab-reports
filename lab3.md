@@ -116,10 +116,11 @@ If arr.length is equal to duplicatesOfMin, then its just case of something like 
 # ``` grep ``` command search 
 Using ChatGPT 3.5 and prompt "Give me useful and interesting ways to use grep command" 
 
-## Example 1)ChatGPT: Search Multiple Files: grep "pattern" chapter-*.txt
+## Example 1)ChatGPT: Search Multiple Files: ``` grep "pattern" chapter-*.txt ```
  
 ### a)Search for a pattern in multiple files in same directory:
-grep "pattern" chapter-*.txt
+``` grep "pattern" chapter-*.txt ```
+
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical/911report (main)     
 $ grep "knife" chapter-*.txt
@@ -162,7 +163,7 @@ $ grep -E 'https?://[^\s"]+' 911report/chapter-2.txt
 
 ## Example 3)ChatGPT: Highlight the instances of string search 
 
-### a)ChatGPT: grep --color "pattern" file.txt
+### a)ChatGPT: ``` grep --color "pattern" file.txt ``` 
 
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
@@ -189,7 +190,7 @@ Qaeda might kill, and how
 
 ## Example 4)Search and Replace in Multiple Files:
 ChatGPT: "You can use grep to search for a pattern in multiple files and then use sed for a search and replace operation. For example, replacing "old" with "new" in all files within a directory:
-grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'"
+``` grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'" ```
 ### a)
 Here is original instances of "gun" and sentences where its found in a file: 
 ```
