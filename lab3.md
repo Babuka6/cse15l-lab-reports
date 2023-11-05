@@ -27,9 +27,26 @@ Second input:
 
 ## An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 
+First input:
+```
 @Test
   public void testAvg5() {
     double[] input1 = {1,4.5,-2,3.4,0}; //including zero and negative value
     assertEquals(2.225, ArrayExamples.averageWithoutLowest(input1),0.05);
     
   }
+```
+
+Second input: 
+```
+@Test
+  public void testAvg6() {
+    double[] input1 = {2,2,2}; 
+    assertEquals(0, ArrayExamples.averageWithoutLowest(input1),0.05);
+   //excluding minimum in this case is excluding all copies of 
+   //minimum ->size < 2 -> 0 
+  }
+```
+
+
+
