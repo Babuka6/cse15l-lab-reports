@@ -1,5 +1,6 @@
 # CSE15L -- Anthony Chapov -- Lab 3 -- 1. Testing and Debugging 2. Researching command's variations. 
 
+# Part 1:
 
 ## A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown):
 
