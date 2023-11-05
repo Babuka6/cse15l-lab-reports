@@ -105,6 +105,9 @@ Time: 0.012
 OK (13 tests)
 ```
 
+## Briefly describe why the fix addresses the issue:
+As we can see in the failure-producing input, whenever we have more than 1 copies of minimim value that we want to exclude, the original code excludes only one 
+
 
 
 
