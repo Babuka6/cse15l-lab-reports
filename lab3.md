@@ -145,14 +145,14 @@ complete his course work
 
 ## Example 2) Search for Email Addresses or URLs:
 
-### a)Search for Email Addresses (I modified text files to see if this command works*)
+### a) Search for Email Addresses (I modified text files to see if this command works*)
 ```
 $ grep -E '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' 911report/*.txt
 911report/chapter-1.txt:"WE HAVE SOME PLANES" firstname@gmail.com
 911report/chapter-2.txt:            THE FOUNDATION OF THE NEW TERRORISM secondname@gmail.com
 
 ```
-### b)Search for URL's
+### b) Search for URL's
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
 $ grep -E 'https?://[^\s"]+' 911report/chapter-2.txt
@@ -162,7 +162,7 @@ $ grep -E 'https?://[^\s"]+' 911report/chapter-2.txt
 
 ## Example 3) Highlight the instances of string search 
 
-### a)grep --color "pattern" file.txt
+### a) grep --color "pattern" file.txt
 
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
@@ -173,7 +173,7 @@ $ grep --color "killer" 911report/chapter-*.txt
 ```
 This will highlight all "killer" instances as a string or substring to red. 
 
-### b)Combining grep --color "pattern" file.txt with -w to search for only whole words instead of "pattern" also being a substring. Also we can change the color of highlight by exporting first statement (36 can be changed to 31,32,33,etc):
+### b) Combining grep --color "pattern" file.txt with -w to search for only whole words instead of "pattern" also being a substring. Also we can change the color of highlight by exporting first statement (36 can be changed to 31,32,33,etc):
 
 ```
 export GREP_COLORS='ms=01;36'  # Change highlighting to Cyan
