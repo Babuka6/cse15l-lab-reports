@@ -112,6 +112,38 @@ As we can see in the failure-producing input, whenever we have more than 1 copie
 Also I guarded the chance of having zero in the denamitor. I check if arr.length == duplicatesOfMin, so that we dont have situation X/0. 
 If arr.length is equal to duplicatesOfMin, then its just case of something like {2,2,2}. It makes sense to set the avarage of this to zero because we exclude all two's from all calcuations as they all are our min value. So we get mean{} = 0. 
 
+# Part 2:
+# grep command search 
+Using ChatGPT 3.5 and prompt "Give me useful and interesting ways to use grep command" 
+
+## Example 1) Search Multiple Files: grep "pattern" chapter-*.txt
+ 
+### a)Search for a pattern in multiple files in same directory:
+grep "pattern" chapter-*.txt
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical/911report (main)     
+$ grep "knife" chapter-*.txt
+chapter-13.3.txt:                considered by a reasonable person to be a 'menacing knife' and/or 
+may be illegal
+chapter-7.txt:                knife to prepare to use knives during the hijackings. The recruits learned to focus
+```
+### b)Search for a pattern in multiple files in multiple directories:
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
+$ grep "alcohol" biomed/*.txt  911report/*.txt
+biomed/gb-2002-3-12-research0078.txt:        alcoholism is the loss of cerebral white matter [ 24].biomed/gb-2002-3-12-research0078.txt:        affects severity of physical dependence on alcohol only in
+biomed/gb-2003-4-3-r20.txt:          alcohol (24:1) was added using 0.2 ml/ml Trizol. Samples
+biomed/gb-2003-4-6-r37.txt:          ALDH1A1 ), and alcohol
+biomed/gb-2003-4-6-r37.txt:        alcohol dehydrogenase 1B, enzymes that affect retinoic acid     
+biomed/rr166.txt:          isopropyl alcohol. Isopropyl alcohol was removed by
+911report/chapter-5.txt:                served alcohol. In late 1997, he applied for permission to 
+complete his course work
+911report/chapter-7.txt:                to Islamic law, were known to drink alcohol.
+911report/chapter-7.txt:                Salem al Hazmi's father recounted that Salem- who had had problems with alcohol and
+```
+### c) Might be useful to go through all files at once and find specific pattern. I would be very useful for doing research or finding correlation between multiple reports. Say I want to study alcoholism from biological prospective as well as study alcohol-related crimes that are recorded in 911 calls.
+
+## Example 2) Search Multiple Files: grep "pattern" chapter-*.txt
 
 
 
