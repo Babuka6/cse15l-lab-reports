@@ -3,7 +3,8 @@
 
 ## A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown):
 
-First input: 
+### First input: 
+Note that we inputp1 containts multiple copies of lowest value. We want to lowest value from the list, but what if there are few copies of same lowest value?
 ```
 
 @Test
@@ -14,7 +15,9 @@ First input:
   }
 ```
 
-Second input:
+### Second input:
+Note that here we have just 1 single element that is not copy of minimum value. So the average must consider just 4 because 2 and any of its copies must be excluded. Right?
+
 ```
 
 @Test
@@ -26,8 +29,10 @@ Second input:
 ```
 
 ## An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+ 
+### First input:
+Note: runs good because no duplicates. 
 
-First input:
 ```
 @Test
   public void testAvg5() {
@@ -37,7 +42,9 @@ First input:
   }
 ```
 
-Second input: 
+### Second input:
+Note: runs good because 2 is minimum value. Thus, any of its copies excluded from calculation. Excluding all 2's leaves us with {} list. In this case sum is not incremented and is still 0. Diving 0 by array's size (other than 0 of course) works correctly and produces 0. It is because for the calculation excluding minimum, we exclude all elements and thus take average of "nothing": zero as answer make sense. 
+
 ```
 @Test
   public void testAvg6() {
@@ -49,6 +56,50 @@ Second input:
 ```
 ## The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 ![symptom](symptom.JPG)
+
+## The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
+### Original code: 
+
+```
+static double averageWithoutLowest(double[] arr) {
+  if(arr.length < 2) { return 0.0; }
+  double lowest = arr[0];
+  for(double num: arr) {
+  if(num < lowest) { lowest = num; }
+  }
+  double sum = 0;
+  for(double num: arr) {
+  if(num != lowest) { sum += num; }
+  }
+  return sum / (arr.length - 1);
+  } 
+```
+
+### Beatiful, magnificient, superb code (fixed):
+
+```
+static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    int duplicatesOfMin = 0;
+
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+      else if (num == lowest) {duplicatesOfMin++; }
+    }
+    if (arr.length != duplicatesOfMin)
+    return sum / (arr.length - duplicatesOfMin);
+    else
+    {
+      return 0;
+    }
+  }
+```
 
 
 
