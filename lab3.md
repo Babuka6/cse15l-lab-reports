@@ -99,6 +99,10 @@ static double averageWithoutLowest(double[] arr) {
       return 0;
     }
   }
+
+Time: 0.012
+
+OK (13 tests)
 ```
 
 
