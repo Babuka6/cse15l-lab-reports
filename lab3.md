@@ -190,7 +190,7 @@ Qaeda might kill, and how
 ## Example 4)Search and Replace in Multiple Files:
 You can use grep to search for a pattern in multiple files and then use sed for a search and replace operation. For example, replacing "old" with "new" in all files within a directory:
 grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'
-
+### a)
 Here is original instances of "gun" and sentences where its found in a file: 
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
@@ -217,4 +217,16 @@ $ grep -P -o '.+?banana[^.!?]*[.!?]' 911report/chapter-13.2.txt
                 2004). Experts told us that a bananashot would definitely be audible on the CVR.   
                 third fighter carried only bananas. // :D
 ``` 
+### b) we can also undo the change by changing banana back to gun: 
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)     
+$ grep -rl "banana" chapter-13.2.txt | xargs sed -i 's/banana/gun/g'
 
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical/911report (main)     
+$ grep -P -o '.+?gun[^.!?]*[.!?]' chapter-13.2.txt
+                ground from aboard the aircraft, reported the presence of a gun or a shooting.
+                Accounting Office looked into the gun story and was unable to corroborate it.
+                2004). Experts told us that a gunshot would definitely be audible on the CVR.      
+                third fighter carried only guns.
+```
+### c) This is super useful. If a programmer made a typo and wrote a huge file, he can change the mistake in the spelling by doing this command. Say, change "aple" to "apple". 
