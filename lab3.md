@@ -187,3 +187,34 @@ Qaeda might kill, and how
 ```
 ### c) The fact that we can combine multiple statements simplifies search a lot. Also, if a programmer has color-blindness changing color of highlight can help. 
 
+## Example 4)Search and Replace in Multiple Files:
+You can use grep to search for a pattern in multiple files and then use sed for a search and replace operation. For example, replacing "old" with "new" in all files within a directory:
+grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'
+
+Here is original instances of "gun" in a file: 
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
+$ grep -P -o '.+?gun[^.!?]*[.!?]' 911report/chapter-13.2.txt
+                ground from aboard the aircraft, reported the presence of a gun or a shooting.
+                Accounting Office looked into the gun story and was unable to corroborate it.
+                2004). Experts told us that a gunshot would definitely be audible on the CVR.
+                third fighter carried only guns.
+
+```
+Now I am going to replace "gun" with "banana". 
+
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
+$ grep -rl "gun" 911report/chapter-13.2.txt | xargs sed -i 's/gun/banana/g'
+```
+
+The file was modified and command worked. Now lets find instances of "banana" in the same file.
+```
+antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
+$ grep -P -o '.+?banana[^.!?]*[.!?]' 911report/chapter-13.2.txt
+                ground from aboard the aircraft, reported the presence of a banana or a shooting.
+                Accounting Office looked into the banana story and was unable to corroborate it.
+                2004). Experts told us that a bananashot would definitely be audible on the CVR.   
+                third fighter carried only bananas. // :D
+``` 
+
