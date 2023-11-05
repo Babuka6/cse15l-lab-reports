@@ -116,7 +116,7 @@ If arr.length is equal to duplicatesOfMin, then its just case of something like 
 # grep command search 
 Using ChatGPT 3.5 and prompt "Give me useful and interesting ways to use grep command" 
 
-## Example 1) Search Multiple Files: grep "pattern" chapter-*.txt
+## Example 1)ChatGPT: Search Multiple Files: grep "pattern" chapter-*.txt
  
 ### a)Search for a pattern in multiple files in same directory:
 grep "pattern" chapter-*.txt
@@ -143,7 +143,7 @@ complete his course work
 ```
 ### c) Might be useful to go through all files at once and find specific pattern. It would be very useful for doing research or finding correlation between multiple reports. Say I want to study alcoholism from biological prospective as well as study alcohol-related crimes that are recorded in 911 calls.
 
-## Example 2) Search for Email Addresses or URLs:
+## Example 2)ChatGPT: Search for Email Addresses or URLs:
 
 ### a) Search for Email Addresses (I modified text files to see if this command works*)
 ```
@@ -160,9 +160,9 @@ $ grep -E 'https?://[^\s"]+' 911report/chapter-2.txt
 ```
 ### c) Good If I want to find a emails in a research paper or in any sort of file data base without doing it mannualy. Same idea applies to URLs. If I want to find related papers and their links without going over the file mannualy.
 
-## Example 3) Highlight the instances of string search 
+## Example 3)ChatGPT: Highlight the instances of string search 
 
-### a) grep --color "pattern" file.txt
+### a)ChatGPT: grep --color "pattern" file.txt
 
 ```
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
@@ -188,8 +188,8 @@ Qaeda might kill, and how
 ### c) The fact that we can combine multiple statements simplifies search a lot. Also, if a programmer has color-blindness changing color of highlight can help. 
 
 ## Example 4)Search and Replace in Multiple Files:
-You can use grep to search for a pattern in multiple files and then use sed for a search and replace operation. For example, replacing "old" with "new" in all files within a directory:
-grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'
+ChatGPT: "You can use grep to search for a pattern in multiple files and then use sed for a search and replace operation. For example, replacing "old" with "new" in all files within a directory:
+grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'"
 ### a)
 Here is original instances of "gun" and sentences where its found in a file: 
 ```
@@ -230,3 +230,5 @@ $ grep -P -o '.+?gun[^.!?]*[.!?]' chapter-13.2.txt
                 third fighter carried only guns.
 ```
 ### c) This is super useful. If a programmer made a typo and wrote a huge file, he can change the mistake in the spelling by doing this command. Say, change "aple" to "apple". 
+
+Source: chatGPT 3.5. Prompt: "Give me useful and interesting ways to use grep command". All commands taken from the output ChatGPT gave me. Codeblocks are written and executed by me in Visual Studio Code. 
