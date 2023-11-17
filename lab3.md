@@ -186,11 +186,10 @@ export GREP_COLOR='ms=01;36'  # Set highlight color to cyan
 
 grep --color=always -w "pattern" file.txt ```
 The way I change output:
-```grep --color=always -w "pattern" file.txt``` becomes ```grep --color -w "kill" 911report/*.txt ```
+```grep --color=always -w "pattern" file.txt``` becomes ```grep --color -w "kill" 911report/*.txt ```Then
 
-.
-```
-export GREP_COLORS='ms=01;36'  # Change highlighting to Cyan
+
+``` export GREP_COLORS='ms=01;36'  # Change highlighting to Cyan
 antho@LAPTOP-8ND46614 MINGW64 ~/OneDrive/Documents/Github/docsearch/technical (main)
 $ grep --color -w "kill" 911report/*.txt
 911report/chapter-11.txt:                Trade Center bombing had been intended to kill a lot of people, not to achieve any
