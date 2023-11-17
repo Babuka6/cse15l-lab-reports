@@ -244,8 +244,7 @@ $ grep -P -o '.+?gun[^.!?]*[.!?]' chapter-13.2.txt
                 ground from aboard the aircraft, reported the presence of a gun or a shooting.
                 Accounting Office looked into the gun story and was unable to corroborate it.
                 2004). Experts told us that a gunshot would definitely be audible on the CVR.      
-                third fighter carried only guns.
-```
+                third fighter carried only guns. ```
 ### c) 1st command is useful If I made a typo and wrote a huge file and then want to change the mistake in the spelling by doing this command. Say, change "aple" to "apple". 2nd command is useful if "aple" was not typo and is actually a correct version because "aple" is name of the Mongolian company that is our client and its not english word "apple" -- so I reverse everything to the way it was before I made changes.
 
 Source: chatGPT 3.5. Prompt: "Give me useful and interesting ways to use grep command". All commands taken from the output ChatGPT gave me. Codeblocks are written and executed by me in Visual Studio Code. 
