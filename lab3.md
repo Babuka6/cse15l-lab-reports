@@ -205,7 +205,7 @@ Prompt "How to search and replace a pattern in multiple files"
 ChatGpt Output: Search and Replace in Multiple Files:
 "You can use grep to search for a pattern in multiple files and then use sed for a search and replace operation. For example, replacing "old" with "new" in all files within a directory:
 ``` grep -rl "old" /path/to/directory | xargs sed -i 's/old/new/g'" ```
-The way I change output 
+The way I change output: "old" to "gun" , "new" to "banana", ../directory to chapter-13.2.txt 
 
 ### a)
 Here is original instances of "gun" and sentences where its found in a file: 
@@ -246,6 +246,6 @@ $ grep -P -o '.+?gun[^.!?]*[.!?]' chapter-13.2.txt
                 2004). Experts told us that a gunshot would definitely be audible on the CVR.      
                 third fighter carried only guns.
 ```
-### c) This is super useful. If a programmer made a typo and wrote a huge file, he can change the mistake in the spelling by doing this command. Say, change "aple" to "apple". 
+### c) 1st command is useful If I made a typo and wrote a huge file and then want to change the mistake in the spelling by doing this command. Say, change "aple" to "apple". 2nd command is useful if "aple" was not typo and is actually a correct version because "aple" is name of the Mongolian company that is our client and its not english word "apple" -- so I reverse everything to the way it was before I made changes.
 
 Source: chatGPT 3.5. Prompt: "Give me useful and interesting ways to use grep command". All commands taken from the output ChatGPT gave me. Codeblocks are written and executed by me in Visual Studio Code. 
