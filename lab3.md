@@ -186,7 +186,7 @@ export GREP_COLOR='ms=01;36'  # Set highlight color to cyan
 
 grep --color=always -w "pattern" file.txt ```
 The way I change output:
-```grep --color=always -w "pattern" file.txt``` becomes ```grep --color -w "kill" 911report/*.txt```
+```grep --color=always -w "pattern" file.txt``` becomes ```grep --color -w "kill" 911report/*.txt ```
 
 .
 ```
