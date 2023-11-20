@@ -15,8 +15,15 @@ bash test.sh <enter>
 ``` 
 (pic 3 or 4)
 7. Step 7:
-vim Li <tab> -> vim List -> vim ListE <tab> -> vim ListExamples -> vim ListExamples.java <enter> 
+```
+
+vim Li <tab> -> vim List -> vim ListE <tab> -> vim ListExamples -> vim ListExamples.java <enter>
+```
+Inside the vim editor when ListExamples.java is open: 
+```
+
 <k> 6 times. <l> 12 times. -> <i> to enter insertm mode. -> <backspace> then <2> to replace 1 with 2. Then <esc> to escape the insert mode. Then <:wq> to exit and save changes. -> closes vim.
+```
 8. Step 8: <up><up> to find bash test.sh -> <enter> to run tests -> tests passed.
 9. Step 9: git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit <enter> -> <esq> <:wq> saves commit message. Finally, just type git push <enter>. 
 
