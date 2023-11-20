@@ -33,7 +33,16 @@ Inside the vim editor when ListExamples.java is open:
 ```
 
 git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit <enter> -> <esq> <:wq> saves commit message. Finally, just type git push <enter>.
-``` 
+```
+
+![alt text](Lab4_one.JPG)
+![alt text](Lab4_two.JPG)
+![alt text](Lab4_three.JPG)
+![alt text](bash_test_sh_fail..JPG)
+![alt text](opened\ vim\ of\ List\ example.JPG)
+![alt text](testpass.JPG)
+![alt text](gitcommit.JPG)
+![alt text](gitpush.JPG)
 
 
 
