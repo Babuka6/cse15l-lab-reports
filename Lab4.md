@@ -2,9 +2,9 @@ Lab 4. Deleted fork but kept terminal open from previous session.
 1. Step 4: 
  ``` ssh <space> <tab> <enter> ->  $ ssh cs15lfa23rg@ieng6.ucsd.edu <enter> ```
 2. Step 5: 
-git <space> clone <space> git@github.com:Babuka6/lab7.git <enter> cd lab7 <enter>
+``` git <space> clone <space> git@github.com:Babuka6/lab7.git <enter> cd lab7 <enter> ```
 3. Step 6:
-bash test.sh <enter> 
+``` bash test.sh <enter> ``` 
 (pic 3 or 4)
 4. Step 7:
 vim Li <tab> -> vim List -> vim ListE <tab> -> vim ListExamples -> vim ListExamples.java <enter> 
