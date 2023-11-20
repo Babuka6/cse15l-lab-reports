@@ -247,6 +247,6 @@ $ grep -P -o '.+?gun[^.!?]*[.!?]' chapter-13.2.txt
                 third fighter carried only guns.
 ```
 
-### c) 1st command is useful If I made a typo and wrote a huge file and then want to change the mistake in the spelling by doing this command. Say, change "aple" to "apple". 2nd command is useful if "aple" was not typo and is actually a correct version because "aple" is name of the Mongolian company that is our client and its not english word "apple" -- so I reverse everything to the way it was before I made changes.
+### c) 1st command is useful If I made a typo and wrote a huge file and then want to change the mistake in the spelling by doing this command. Say, change "aple" to "apple". 2nd command is useful if because it allows to undo the changes and thus allow us to switch between old->new and new->old. 
 
-Source: chatGPT 3.5. Prompt: "Give me useful and interesting ways to use grep command". All commands taken from the output ChatGPT gave me. Codeblocks are written and executed by me in Visual Studio Code. 
+Source: chatGPT 3.5. Prompt: "Give me useful and interesting ways to use grep command". Plus some additional prompts following the original prompts for some of the commands. If more than 1 prompt, I specify it by including additional prompt for a command that needs it.  All commands taken from the output ChatGPT gave me. Codeblocks are written and executed by me in Visual Studio Code. 
