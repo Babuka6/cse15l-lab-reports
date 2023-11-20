@@ -29,7 +29,11 @@ Inside the vim editor when ListExamples.java is open:
 
 <up><up> to find bash test.sh -> <enter> to run tests -> tests passed.
 ```
-9. Step 9: git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit <enter> -> <esq> <:wq> saves commit message. Finally, just type git push <enter>. 
+9. Step 9:
+```
+
+git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit <enter> -> <esq> <:wq> saves commit message. Finally, just type git push <enter>.
+``` 
 
 
 
