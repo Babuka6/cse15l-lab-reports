@@ -1,4 +1,5 @@
 Lab 4. Deleted fork but kept terminal open from previous session. 
+
 4. Step 4: 
  ```
 ssh <space> <tab> <enter> ->  $ ssh cs15lfa23rg@ieng6.ucsd.edu <enter>
