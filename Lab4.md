@@ -2,22 +2,22 @@ Lab 4. Deleted fork but kept terminal open from previous session.
 
 4. Step 4: 
  ```
-ssh <space> <tab> <enter> ->  $ ssh cs15lfa23rg@ieng6.ucsd.edu <enter>
+ssh <space> <tab> <enter> ->  $ ssh cs15lfa23rg@ieng6.ucsd.edu <enter> to log in into the protected server. 
 ```
 5. Step 5: 
 ```
-git <space> clone <space> git@github.com:Babuka6/lab7.git <enter> cd lab7 <enter>
+git <space> clone <space> git@github.com:Babuka6/lab7.git <enter> cd lab7 <enter> to clone the directory's content and then change currect directory into lab7 where listexamples file is. 
  ```
 6. Step 6:
 ```
 
-bash test.sh <enter>
+bash test.sh <enter> to run the test files via script test.sh 
 ``` 
 
 7. Step 7:
 ```
 
-vim Li <tab> -> vim List -> vim ListE <tab> -> vim ListExamples -> vim ListExamples.java <enter>
+vim Li <tab> -> vim List -> vim ListE <tab> -> vim ListExamples -> vim ListExamples.java <enter> opens ListExamples with vim editor
 ```
 Inside the vim editor when ListExamples.java is open: 
 ```
@@ -32,7 +32,7 @@ Inside the vim editor when ListExamples.java is open:
 9. Step 9:
 ```
 
-git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit <enter> -> <esq> <:wq> saves commit message. Finally, just type git push <enter>.
+git add L <tab> -> git add ListExamples.java <enter> to put ListExamples's changes in staging area; git co <tab> -> git commit <enter> -> <esq> <:wq> permanently committs the changes and saves commit message. Finally, just type git push <enter> uploads local repository's content into the github (remote) repository.
 ```
  
 ![alt text](Lab4_one.JPG)
