@@ -39,7 +39,7 @@ git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit
 
 ![alt text](Lab4_two.JPG)
 
-![alt text](Lab4_three.JPG)
+
 
 ![alt text](bash_test_sh_fail..JPG)
 
