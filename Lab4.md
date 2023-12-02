@@ -45,11 +45,13 @@ git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit
 
 ![alt text](openedvimofListexample.JPG)
 
+![alt text](vimFixed.JPG)
+
 ![alt text](testpass.JPG)
 
-![alt text](gitcommit.JPG)
+![alt text](gitcommitNew.JPG)
 
-![alt text](gitpush.JPG)
+
 
 
 
