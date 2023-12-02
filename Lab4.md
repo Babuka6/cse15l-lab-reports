@@ -43,7 +43,7 @@ git add L <tab> -> git add ListExamples.java <enter>; git co <tab> -> git commit
 
 ![alt text](bash_test_sh_fail..JPG)
 
-![alt text](opened vim of List example.JPG)
+![alt text](openedvimofListexample.JPG)
 
 ![alt text](testpass.JPG)
 
