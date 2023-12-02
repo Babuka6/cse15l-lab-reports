@@ -38,7 +38,7 @@ Inside the vim editor when ListExamples.java is open:
 9. Step 9:
 ```
 
-git add L <tab> -> git add ListExamples.java <enter> to put ListExamples's changes in staging area; git co <tab> -> git commit <enter> -> <esq> <:wq> permanently committs the changes and saves commit message. Finally, just type git push <enter> uploads local repository's content into the github (remote) repository.
+git add L <tab> -> git add ListExamples.java <enter> to put ListExamples's changes in staging area; git co <tab> -> git commit -m text <enter> -> permanently committs the changes and saves commit message. Finally, just type git push <enter> uploads local repository's content into the github (remote) repository.
 ```
  ![alt text](gitcommitNew.JPG)
 ![alt text](Lab4_one.JPG)
