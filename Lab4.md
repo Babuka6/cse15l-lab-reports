@@ -4,10 +4,13 @@ Lab 4. Deleted fork but kept terminal open from previous session.
  ```
 ssh <space> <tab> <enter> ->  $ ssh cs15lfa23rg@ieng6.ucsd.edu <enter> to log in into the protected server. 
 ```
+![alt text](Lab4_one.JPG)
+
 5. Step 5: 
 ```
 git <space> clone <space> git@github.com:Babuka6/lab7.git <enter> cd lab7 <enter> to clone the directory's content and then change currect directory into lab7 where listexamples file is. 
  ```
+![alt text](Lab4_two.JPG)
 6. Step 6:
 ```
 
