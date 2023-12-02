@@ -13,12 +13,13 @@ git <space> clone <space> git@github.com:Babuka6/lab7.git <enter> cd lab7 <enter
   into lab7 where listexamples file is. 
  ```
 ![alt text](Lab4_two.JPG)
+
 6. Step 6:
 ```
-
-bash test.sh <enter> to run the test files via script test.sh 
+bash test.sh <enter> to run the test files via script test.sh
 ``` 
 ![alt text](bash_test_sh_fail..JPG)
+
 7. Step 7:
 ```
 
@@ -33,12 +34,14 @@ Inside the vim editor when ListExamples.java is open:
 ```
 ![alt text](openedvimofListexample.JPG) 
 ![alt text](vimFixed.JPG)
+
 8. Step 8:
 ```
 
 <up><up> to find bash test.sh -> <enter> to run tests -> tests passed.
 ```
 ![alt text](testpass.JPG)
+
 9. Step 9:
 ```
 
