@@ -13,7 +13,7 @@ git <space> clone <space> git@github.com:Babuka6/lab7.git <enter> cd lab7 <enter
 
 bash test.sh <enter>
 ``` 
-(pic 3 or 4)
+
 7. Step 7:
 ```
 
