@@ -44,6 +44,7 @@ Press <k> 6 times. <l> 12 times. -> <i> to enter insertm mode. -> <backspace> th
 
 ![alt text](testpass.JPG)
 
+
 9. Step 9:
 
 ```
