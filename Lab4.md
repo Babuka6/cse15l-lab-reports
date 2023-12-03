@@ -22,7 +22,6 @@ bash test.sh <enter> to run the test files via script test.sh
 
 7. Step 7:
 ```
-
 vim Li <tab> -> vim List -> vim ListE <tab> -> vim ListExamples
  -> vim ListExamples.java <enter> opens ListExamples with vim editor
 ```
