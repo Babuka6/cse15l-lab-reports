@@ -25,7 +25,9 @@ bash test.sh <enter> to run the test files via script test.sh
 vim Li <tab> -> vim List -> vim ListE <tab> -> vim ListExamples
  -> vim ListExamples.java <enter> opens ListExamples with vim editor
 ```
-Inside the vim editor when ListExamples.java is open: 
+
+Inside the vim editor when ListExamples.java is open:
+
 ```
 <k> 6 times. <l> 12 times. -> <i> to enter insertm mode. -> <backspace> then <2> to replace 1 with 2.
  Then <esc> to escape the insert mode. Then <:wq> to exit and save changes. -> closes vim.
