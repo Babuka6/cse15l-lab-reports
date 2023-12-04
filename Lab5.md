@@ -18,6 +18,11 @@ Two files: ``` Code.java ``` that has the code to check and ``` test.sh ``` scri
 
 
 ### Contents of the files: 
+```Code.java```
+![alt text](Lab5five.JPG)
+
+```test.sh```
+![alt text](Lab5six.JPG)
 
 ### Commands to trigger the bug(unexpected behavior):
 ```bash test.sh ```
