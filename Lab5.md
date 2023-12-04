@@ -7,8 +7,13 @@ I am designing a function for CSE department's enrollment system. My function pr
 I see that your code is mostly correct. However, you should review a use of ``` == ``` with objects. We know from the class that two strings have different adresses in the memory. What does it mean if we want to compare them? 
 
 ## Student: 
-After reading java documentation on ```==```, I realized that it compares whether two strings are the same object. In other words, if the variables point in the same place in the memory. After reading documentation on strings, I found a good method to compare the value placed in objects instead of comparing the objects themself. I will use ``` equals ``` method instead. 
+After reading java documentation on ```==```, I realized that it compares whether two strings are the same object. Even though ``` == ``` with string can sometimes work correctly, it can lead to unexpected behavior. After reading documentation on strings, I found a good method to compare the value placed in objects instead of comparing the objects themself. I will use ``` equals ``` method instead. 
 
 ## File and Directory Structure:
+Two files: ``` Code.java ``` that has the code to check and ``` test.sh ``` script that compiles and runs the Code.java. 
+
+### Contents of the files: 
+
+### Commands to trigger the 
 
 
