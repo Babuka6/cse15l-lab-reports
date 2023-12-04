@@ -27,7 +27,7 @@ Two files: ``` Code.java ``` that has the code to check and ``` test.sh ``` scri
 ![alt text](Lab5six.JPG)
 
 ### Commands to trigger the bug(unexpected behavior):
-```bash test.sh ```
+```bash test.sh ``` and sending "Computer Science" in ```Scanner```
 
 ### Fix of the bug (unexpected behavior): 
 Replacing ``` == ``` that sometimes work with literals and sometimes not, use .equals() instead.  
