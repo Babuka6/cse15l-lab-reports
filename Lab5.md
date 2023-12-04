@@ -14,6 +14,12 @@ Two files: ``` Code.java ``` that has the code to check and ``` test.sh ``` scri
 
 ### Contents of the files: 
 
-### Commands to trigger the 
+### Commands to trigger the bug(unexpected behavior):
+```bash test.sh ```
+
+### Fix of the bug (unexpected behavior): 
+Replacing ``` == ``` that sometimes work with literals and sometimes not, use .equals() instead.  
+
+
 
 
